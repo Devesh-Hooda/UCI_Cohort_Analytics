@@ -30,13 +30,18 @@ Data processing and analytical steps implemented in the notebook/script:
   - Deduplicate records and compute Revenue = Quantity * Price.
 - Aggregations and analysis:
   - Monthly revenue aggregation and 3-month rolling trend.
+    ![](https://github.com/Devesh-Hooda/UCI_Cohort_Analytics/blob/main/Figures/RollingAvg.png)
   - Product-level aggregations (Revenue, Quantity, Number of Orders) and top-N listings.
+    ![](https://github.com/Devesh-Hooda/UCI_Cohort_Analytics/blob/main/Figures/Top20_Rev.png)
+    ![](https://github.com/Devesh-Hooda/UCI_Cohort_Analytics/blob/main/Figures/Top20_Quant.png)
   - Cohort analysis:
     - Define cohort by each customer's first purchase month.
     - Compute monthly retention matrix and visualize with heatmap.
+      ![](https://github.com/Devesh-Hooda/UCI_Cohort_Analytics/blob/main/Figures/Cohort_Heatmap.png)
   - RFM segmentation:
     - Compute Recency, Frequency, Monetary metrics (snapshot date = last invoice + 1 day).
     - Score customers into quintiles and assign segments (Best Customers, Loyal, Potential Loyalists, At Risk, Others).
+      ![](https://github.com/Devesh-Hooda/UCI_Cohort_Analytics/blob/main/Figures/RFM_Distribution.png)
 - Outputs:
   - CSV exports for Tableau: company_monthly_summary.csv, product_summary.csv, cohort_retention.csv, rfm_table.csv, plus cleaned transaction export.
 
