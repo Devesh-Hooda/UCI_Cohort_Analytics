@@ -74,5 +74,4 @@ How to run (quick)
    - For notebook: open in Jupyter/Colab and run cells for interactive plots.
 4. Produced CSV exports (company_monthly_summary.csv, product_summary.csv, cohort_retention.csv, cleaned_online_retail.csv, rfm_table.csv) will be in the repository root for Tableau or further analysis.
 
-License / Attribution
-- This repository contains analysis code and exports derived from the UCI Online Retail dataset. Ensure compliance with original dataset licensing when redistributing.
+
